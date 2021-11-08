@@ -10,7 +10,7 @@ Formulaire html
 <?php
  ?>
     <form action="#" method="GET">
- Nombre<input type="number" name="number">
+ Nombre<input type="number" name="number" required >
  <input type=submit value="Envoyer">
  <?php
  if(isset($_GET['number'])){
